@@ -6,5 +6,5 @@ class Appointment
     @name = name
     self.doctor = doctor if doctor
   end
-  
+
 end
