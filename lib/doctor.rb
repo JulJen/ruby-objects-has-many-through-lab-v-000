@@ -6,9 +6,9 @@ class Doctor
     @appointments = []
   end
 
-  def add_appointment(date_time)
-    self.appointments << date_time
-    date_time.doctor = self
+  def add_appointment(appointment)
+    self.appointments << appointment
+    appointment.doctor = self
   end
 
   def patients
