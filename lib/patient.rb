@@ -7,11 +7,11 @@ class Patient
   end
 
   def add_appointment(date_time)
-    @appointment << date_time
+    @appointments << date_time
   end
 
-  def artists
-    @songs.collect { |song| song.artist }
+  def doctors
+    @appointments.collect { |song| song.artist }
   end
 
 end
