@@ -6,9 +6,12 @@ class Patient
     @appointments = []
   end
 
-  def self.all
-    @@all
+  def add_appointment(date)
+    @appointment << date
   end
 
+  def artists
+    @songs.collect { |song| song.artist }
+  end
 
 end
