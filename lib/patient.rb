@@ -11,7 +11,7 @@ class Patient
   end
 
   def doctors
-    @appointments.collect { |song| song.artist }
+    @appointments.collect { |date_time| date_time.doctor }
   end
 
 end
