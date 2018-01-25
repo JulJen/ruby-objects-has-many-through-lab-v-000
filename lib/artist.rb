@@ -1,7 +1,7 @@
 require 'pry'
 
 class Artist
-  attr_accessor :name, :songs, :artist
+  attr_accessor :name, :songs, :genre
 
   def initialize(name)
     @name = name
