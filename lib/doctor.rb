@@ -8,9 +8,9 @@ class Doctor
 
   def add_appointment(date)
     self.appointments << date
-    date.appointments = self
+    date.doctor = self
   end
-
+  
   def patients
     @appointments.collect { |scheduled| scheduled.patient }
   end
