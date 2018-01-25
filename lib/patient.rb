@@ -6,8 +6,8 @@ class Patient
     @appointments = []
   end
 
-  def add_appointment(date)
-    @appointment << date
+  def add_appointment(date_time)
+    @appointment << date_time
   end
 
   def artists
