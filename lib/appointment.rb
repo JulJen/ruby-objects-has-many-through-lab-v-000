@@ -1,9 +1,6 @@
 class Appointment
-  attr_accessor :name
-  # , :genre
-  attr_reader :doctor, :patient
+  attr_accessor :name, :doctor, :patient
 
-  @@all =[]
 
   def initialize(name, patient)
     @name = name
