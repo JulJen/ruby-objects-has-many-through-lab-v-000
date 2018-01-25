@@ -7,8 +7,8 @@ class Song
 
   def initialize(name, genre)
     @name = name
-    self.artist = artist if artist
-    # self.genre = genre if genre
+    @genre = genre
+    genre.add_song(self)
   end
   #
   # def artist=(artist)
@@ -21,8 +21,5 @@ class Song
   #   genre.songs << self if !genre.songs.include?(self)
   # end
 
-  def songs
-    @songs
-  end
 
 end
