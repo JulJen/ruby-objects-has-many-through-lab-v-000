@@ -12,7 +12,7 @@ class Genre
   end
 
   def artists
-    @songs.each { |song| song.artist }
+    @songs.collect { |song| song.artist }
   end
 
 
