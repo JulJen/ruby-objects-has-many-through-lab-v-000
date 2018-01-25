@@ -7,6 +7,7 @@ class Doctor
     @name = name
     @appointments =[]
     @@all << self
+  end
 
 
 end
