@@ -7,6 +7,6 @@ class Appointment
 
   def initialize(name, patient)
     @name = name
-    self.artist = artist if artist
+    self.doctor = doctor if doctor
     # self.genre = genre if genre
   end
