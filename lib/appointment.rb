@@ -5,7 +5,7 @@ class Appointment
 
   @@all =[]
 
-  def initialize(name, genre)
+  def initialize(name, patient)
     @name = name
     self.artist = artist if artist
     # self.genre = genre if genre
