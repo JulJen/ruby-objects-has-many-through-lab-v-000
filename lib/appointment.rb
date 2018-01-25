@@ -8,5 +8,4 @@ class Appointment
   def initialize(name, patient)
     @name = name
     self.doctor = doctor if doctor
-    # self.genre = genre if genre
   end
