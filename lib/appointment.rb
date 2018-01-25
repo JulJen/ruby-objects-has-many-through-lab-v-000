@@ -2,9 +2,10 @@ class Appointment
   attr_accessor :name, :doctor, :patient
 
 
-  def initialize(name, patient)
+  def initialize(name, doctor)
     @name = name
-    self.doctor = doctor if doctor
+    @doctor = doctor
+    patient.add_appointment(self)
   end
 
 end
