@@ -1,7 +1,8 @@
 require 'pry'
 
 class Artist
-  attr_accessor :name, :songs, :artist
+  attr_accessor :name
+  # , :songs, :artist
 
   def initialize(name)
     @name = name
@@ -15,7 +16,7 @@ class Artist
 
   def song
     @songs
-  end 
+  end
 
   def genres
     @songs.collect { |song| song.genre }
