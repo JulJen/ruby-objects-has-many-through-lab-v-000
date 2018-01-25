@@ -12,7 +12,7 @@ class Doctor
   end
 
   def patients
-    @appointments.collect { |scheduled| scheduled.patient }
+    @appointments.collect { |date_time| date_time.patient }
   end
 
 end
