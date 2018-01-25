@@ -10,7 +10,7 @@ class Doctor
     self.appointments << appointment
     appointment.doctor = self
   end
-  
+
   def patients
     @appointments.collect { |scheduled| scheduled.patient }
   end
